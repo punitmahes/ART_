@@ -21,14 +21,102 @@
   <link rel="stylesheet" href="assets/tether/tether.min.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
-  
+    <style>
+
+
+        .container2 {
+        width:100%;
+
+        }
+
+        .animation-area {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          overflow: hidden;
+        }
+
+        .animation-area li {
+          position: absolute;
+          display: block;
+          list-style: none;
+          width: 25px;
+          height: 25px;
+          animation: animate 20s linear infinite;
+          bottom: -150px;
+          z-index:2;
+        }
+
+        .animation-area li:nth-child(1) {
+          background-color: #329795;
+          left: 85%;
+          width: 80px;
+          height: 80px;
+          animation-delay: 0s;
+        }
+
+        .animation-area li:nth-child(2) {
+          background-color: #F17993;
+          left: 75%;
+          width: 50px;
+          height: 50px;
+          animation-delay: 1.5s;
+          animation-duration: 10s;
+        }
+
+        .animation-area li:nth-child(3) {
+          background-color: #7E4C97;
+          left: 60%;
+          width: 100px;
+          height: 100px;
+          animation-delay: 5.5s;
+        }
+
+        .animation-area li:nth-child(4) {
+          background-color: #7ED1E6;
+          left: 40%;
+          width: 180px;
+          height: 180px;
+          animation-delay: 0s;
+          animtion-duration: 15s;
+        }
+
+        .animation-area li:nth-child(5) {
+          background-color: #FCA83E;
+          left: 25%;
+          width: 80px;
+          height: 80px;
+          animation-delay: 0s;
+        }
+
+        .animation-area li:nth-child(6) {
+          background-color: #F9ADA3;
+          left: 10%;
+          width: 120px;
+          height: 120px;
+          animation-delay: 3.5s;
+        }
+
+        @keyframes animate {
+          0% {
+            transform: translateY(0) rotate(0deg);
+          }
+
+          100% {
+            transform: translateY(-900px) rotate(360deg);
+            opacity: 0
+          }
+
+
+    </style>
   
   
 </head>
 <body>
   <section class="menu cid-qTkzRZLJNu" once="menu" id="menu1-3">
 
-    
 
     <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm bg-color transparent">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,13 +150,18 @@
 
 <section class="engine"><a href="https://mobirise.info/f">easy web maker</a></section><section class="header3 cid-rX1Nk2t146 mbr-fullscreen" id="header3-c">
 
-    
 
-    
 
-    <div class="container">
+
+
+    <div class="container" id="first div">
+
+
+
+
         <div class="media-container-row">
             <div class="mbr-figure" style="width: 95%;">
+
                 <img src="assets/images/1587057718651-1587057711559-art-920x720.png" alt="Mobirise" title="">
             </div>
 
@@ -87,7 +180,17 @@
 
 <section class="counters3 counters cid-rX1QAXPvzb" id="counters3-e">
 
-    
+    <div class="container pt-4 mt-2">
+        <div class="container2">
+            <ul class="animation-area">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
 
     
 
@@ -130,6 +233,17 @@
     
 
     <div class="container pt-4 mt-2">
+        <div class="container2">
+            <ul class="animation-area">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+
         <h2 class="mbr-section-title pb-3 align-center mbr-fonts-style display-1">The Process</h2>
         
         <div>
@@ -160,6 +274,7 @@
      
 
     <div class="container">
+
         <div class="inner-container" style="width: 100%;">
             <hr class="line" style="width: 53%;">
             <div class="section-text align-center mbr-fonts-style display-5">Past Speakers</div>
@@ -510,7 +625,7 @@
   <script src="assets/viewportchecker/jquery.viewportchecker.js"></script>
   <script src="assets/theme/js/script.js"></script>
   <script src="assets/slidervideo/script.js"></script>
-  
+
   
  <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
     <input name="animation" type="hidden">

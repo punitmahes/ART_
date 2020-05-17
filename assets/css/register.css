@@ -1,0 +1,183 @@
+        .container13{
+
+         display:none;
+         width:100%;
+         height:auto;
+         overflow:hidden;
+         background: radial-gradient(ellipse at bottom, rgba(17, 29, 43, 1), rgba(9, 10, 15, 1));
+
+        }
+
+        .register{
+        width:40%;
+        margin:auto;
+        padding-top:100px;
+
+        }
+        h1{
+        text-align:center;
+        margin-bottom:50px;
+        color:white;
+        }
+        input{
+        width:100%;
+        line-height:3em;
+        border: 2px solid #55b4d4;
+        border-shadow:none;
+        border-color:none;
+        border-radius:100px;
+        padding-left:40px;
+        font-family: 'Lusitana', serif;
+
+
+        }
+        input:focus{
+        outline:none;}
+
+
+        select{
+        width:100%;
+        padding : 15px 40px;
+        border: 2px solid #55b4d4;
+        border-shadow:none;
+        border-color:none;
+        border-radius:100px;
+        font-family: 'Lusitana', serif;
+
+        }
+
+        select:focus{
+        outline:none;
+        }
+        select option{
+        background :#f8f9fa;
+        }
+
+       #description{
+       resize:auto;
+       text-rendering:auto;
+       color:white;}
+
+       textarea{
+       width:100%;
+       padding-left:30px;
+       border: 2px solid #55b4d4;
+        border-shadow:none;
+        border-color:none;
+        border-radius:100px;
+        font-family: 'Lusitana', serif;}
+
+
+        textarea:focus{
+        outline:none;
+        background:#f8f9fa;}
+
+        label{
+        line-height:2em;
+        padding:5px 30px;
+        font-family:'Unica One';
+        color:white;}
+
+        submit{
+        padding:0;
+        margin:auto;}
+
+        .button123{
+        font-family:'Unica One';
+        color : #20c997;
+        margin: 40px auto;
+        float:right;
+        font-size:1.3em;
+        border: 2px solid #20c997;
+        background:transparent;
+        transition: all 0.8s;
+        box-shadow:1px 5px 10px 1px #20c997;
+
+        }
+
+        .button123:hover{
+        background:#20c997;
+        color:white;
+        box-shadow:none;
+        }
+        .beforewindow{
+
+        background-image:url("bits.png.png");
+        background-repeat:no-repeat;
+        background-position:left bottom;
+        width:100%;
+        height:100vh;
+        text-align:center;
+        padding-top:100px;
+        z-index:-1000;
+        background-color:#6c757d;
+        }
+        p{
+        font-family: 'Lusitana', serif;
+        font-size:1.6em;
+        margin:auto;
+        width:40%;
+        color:white;
+        }
+        .button12{
+         font-family:'Unica One';
+        color : steelblue;
+
+       margin-top:20px;
+        font-size:1.3em;
+        border: 2px solid steelblue;
+        background:transparent;
+        transition: all 0.8s;
+        }
+
+        .button12:hover{
+        background:steelblue;
+        color:white;
+        box-shadow:none;
+        }
+
+
+        @media(max-width:600px){
+            .beforewindow{
+            background-size:500px 400px;
+            background-position:left bottom;
+         }
+
+          .afterwindow{
+            background-size:500px 400px;
+            background-position:left bottom;
+         }
+
+            p{
+            width:80%;
+            font-size:1.2em;}
+            h1{
+            font-size:1.2em;
+            width:80%;}
+
+            .register{
+            width:90%;
+            }
+
+
+            input{
+            line-height:2.0em;
+            }
+
+            select{
+            line-height:2em;
+            }
+        }
+
+        .afterwindow{
+        background-image:url("bits.png.png");
+        background-repeat:no-repeat;
+        background-position:left bottom;
+        width:100%;
+        height:100vh;
+        text-align:center;
+        padding-top:100px;
+        z-index:-1000;
+        background-color:#6c757d;
+        display:none;
+        }

@@ -258,6 +258,8 @@
   margin-left: 00rem;
   margin-top: 0rem;
   top: 0; }
+.hamburger span{
+background-color:white;}
 
 .is-builder .nav-dropdown.collapsing {
   transition: none !important; }

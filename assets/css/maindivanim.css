@@ -3,11 +3,13 @@
       overflow:hidden;
       }
    .animation-area{
-    z-index:2;
+    
     background-color: rgba(0, 0, 0, 0.05);
 
     background-size: 8px 8px;
     }
+	
+
 
 
 
@@ -15,7 +17,7 @@
 
 
 .animation-wrapper {
-  position: fixed;
+  position:absolute;
   top: 0;
   left: 0;
   width: 100%;

@@ -28,8 +28,6 @@
 </head>
 
 
-
-
 <body>
 
 <section class="menu cid-rX7umuYpfR" once="menu" id="menu1-1j">
@@ -69,44 +67,17 @@
     </nav>
 </section>
 
-<section class="header3 cid-rX1Nk2t146 mbr-fullscreen main-div-bg" id="header3-c">
-    <div class="animation-wrapper">
-        <div class="particle particle-1"></div>
-        <div class="particle particle-2"></div>
-        <div class="particle particle-3"></div>
-        <div class="particle particle-4"></div>
-    </div>
-
-
-
-
-    <div class="container">
-        <div class="media-container-row">
-            <div class="mbr-figure" style="width: 90%;">
-                <img src="assets/images/1587057718651-1587057711559-art-920x720.png" title="">
-            </div>
-
-            <div class="media-content">
-                <h1 class="mbr-section-title mbr-white pb-3 mbr-fonts-style display-1">Alumni Research Talk</h1>
-
-                <div class="mbr-section-text mbr-white pb-3 ">
-                    <p class="mbr-text mbr-fonts-style display-4">Registration for Speakers</p>
-
-        </div>
-            </div>
-        </div>
-    </div>
-
-</section>
 
 <div class="beforewindow" id = "div1">
+    <div class ="circle"></div>
     <p>Dear Guest,</p>
-    <p>Here is the ART Registration Form. We request you to kindly enter some basic information about yourself.The information entered by you would be  treated as confidential.</p>
+    <p>Here is the ART Registration Form for Speakers. We request you to kindly enter some basic information about yourself.The information entered by you would be  treated as confidential.</p>
     <button class = "button12" id ="registration">Registration Form</button>
 </div>
 
 
 <div class="afterwindow" id = "div3">
+    <div class ="circle"></div>
     <p>Dear Guest,</p>
     <p>Thank you . We will reach you soon </p>
 
@@ -191,7 +162,7 @@
                 </select>
 
             </form>
-            <button class ="button123" id = "button2">Submit</button>
+            <button class ="button123" onclick = "scrollToTop()" id = "button2" > <a href = "page-register.html#top"></a>Submit</button>
         </div>
     </div>
 </section>
@@ -261,6 +232,7 @@
 <script src="assets/theme/js/script.js"></script>
 <script src="assets/slidervideo/script.js"></script>
 <script src="assets/formoid/formoid.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
 
 <script>
     $("#registration").on("click",function(){
@@ -272,6 +244,15 @@
         $("#div3").css("display","block");
         $("#div2").css("display","none");
         });
+
+        function scrollToTop() {
+            $(window).scrollTop(0);
+        }
+
+
+
+
+        
 </script>
 
 </body>
